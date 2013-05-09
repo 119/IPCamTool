@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>IPCamTable</class>
+ <widget class="QGroupBox" name="IPCamTable">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>601</width>
+    <height>242</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>IPCamSetting</string>
+  </property>
+  <property name="title">
+   <string>IPCamTable</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <item>
+    <widget class="QTableWidget" name="tableWidget">
+     <column>
+      <property name="text">
+       <string>Item</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>IP</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>MAC</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Port</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>DNS1</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>DNS2</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Gate Way</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Host Name</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Firmware</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
